@@ -25,4 +25,4 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover -s . -p "test_api.py"  # Запустите ваши тесты
+        python -m unittest ../test_api.py  # Запустите ваши тесты
